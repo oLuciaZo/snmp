@@ -1,0 +1,16 @@
+{
+  "uploadOnSave": false,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "192.168.56.101",
+  "target": "/var/www/html/snmp/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "snmp",
+  "watch": [],
+  "transport": "scp",
+  "port": "22",
+  "password": "1"
+}
